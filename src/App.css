@@ -1,0 +1,121 @@
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #131313;
+}
+
+p{
+  margin: 0;
+  padding: 3px;
+}
+
+
+.banner{
+  width: 100vw;
+}
+
+.nav-input{
+  position: relative;
+  bottom: 90px;
+}
+
+.input-nav{
+  border: none;
+  border-radius: 5px;
+  opacity: 0.5;
+}
+
+.location-information{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.residents{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-card{
+  width: 250px;
+  background-color: #3b3b3b;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.loc-info-data{
+  color: white;
+}
+
+.img-info{
+  display: flex;
+}
+
+.character-images{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.character-name{
+  text-align: left;
+  padding: 0rem 0rem 1rem;
+  margin: 0;
+}
+
+.text-card{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.p-text{
+  font-size: 8px;
+  color: #ccc;
+}
+
+.p-description{
+  font-size: 12px;
+}
+
+.status-complete{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.status-dead{
+  background-color: red;
+  color: red;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.status-alive{
+  background-color: green;
+  color: green;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.status-unknown{
+  background-color: white;
+  color: white;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
